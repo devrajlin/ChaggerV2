@@ -1,0 +1,1942 @@
+<!doctype html>
+
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Children: The Clear Path to Confidence | Chagger Dental</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              secondary: "#4e6072",
+              "on-secondary-container": "#546678",
+              "on-error-container": "#93000a",
+              "surface-bright": "#fcf9f5",
+              tertiary: "#251e16",
+              surface: "#fcf9f5",
+              "on-surface": "#1c1c1a",
+              "on-primary-fixed-variant": "#26467d",
+              "secondary-fixed": "#d1e5fa",
+              "on-surface-variant": "#434750",
+              "surface-container-low": "#f6f3ef",
+              outline: "#747781",
+              "surface-container-highest": "#e5e2de",
+              "secondary-fixed-dim": "#b5c9dd",
+              "on-secondary-fixed-variant": "#36495a",
+              primary: "#001e49",
+              "on-tertiary-fixed": "#211a13",
+              "inverse-primary": "#adc6ff",
+              "error-container": "#ffdad6",
+              "on-error": "#ffffff",
+              "on-primary": "#ffffff",
+              error: "#ba1a1a",
+              "tertiary-fixed": "#eee0d4",
+              background: "#fcf9f5",
+              "surface-container-lowest": "#ffffff",
+              "surface-dim": "#dcdad6",
+              "secondary-container": "#d1e5fa",
+              "primary-container": "#0e336a",
+              "on-tertiary-container": "#a79b90",
+              "on-primary-fixed": "#001a41",
+              "surface-container-high": "#eae8e4",
+              "inverse-surface": "#31302e",
+              "tertiary-fixed-dim": "#d1c4b8",
+              "surface-variant": "#e5e2de",
+              "on-secondary": "#ffffff",
+              "primary-fixed": "#d8e2ff",
+              "surface-container": "#f0ede9",
+              "on-tertiary": "#ffffff",
+              "outline-variant": "#c4c6d1",
+              "on-primary-container": "#809ddb",
+              "on-background": "#1c1c1a",
+              "inverse-on-surface": "#f3f0ec",
+              "tertiary-container": "#3b332b",
+              "primary-fixed-dim": "#adc6ff",
+              "on-tertiary-fixed-variant": "#4e453c",
+              "surface-tint": "#405e97",
+              "on-secondary-fixed": "#091d2c",
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+            fontFamily: {
+              headline: ["Manrope"],
+              body: ["Inter"],
+              label: ["Inter"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+      /* nabrbar css */
+      .chg-nav-glass-morphism {
+        background: #ffffff;
+        border-bottom: 1px solid rgba(0, 30, 73, 0.08);
+      }
+      .chg-nav-dropdown-container {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(10px);
+        pointer-events: none;
+      }
+
+      .chg-nav-link {
+        @apply relative text-[#4e6072] font-semibold text-sm tracking-wide transition-colors duration-200 cursor-pointer;
+      }
+      .chg-nav-link:hover {
+        @apply text-primary;
+      }
+      .chg-nav-active-nav-link {
+        @apply text-primary;
+      }
+      .chg-nav-active-nav-link::after {
+        /* content: ""; */
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #001e49;
+      }
+      .chg-nav-z-menu {
+        z-index: 100;
+      }
+      /* navbar */
+      .glass-silk {
+        background: rgba(252, 249, 245, 0.7);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+      }
+      .glass-card {
+        background: rgba(14, 51, 106, 0.4);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+      }
+      .editorial-shadow {
+        box-shadow: 0 32px 64px -16px rgba(0, 30, 73, 0.05);
+      }
+      .text-balance {
+        text-wrap: balance;
+      }
+      .glass-input {
+        background: rgba(14, 51, 106, 0.4) !important;
+        border: 1px solid rgba(255, 255, 255, 0.15) !important;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        color: white !important;
+        transition: all 0.3s ease;
+      }
+      .bg-chagger-blue {
+        --tw-bg-opacity: 1;
+        background-color: rgb(14 51 106 / var(--tw-bg-opacity, 1));
+      }
+      /* other services css */
+      .glass-primary {
+        background: rgba(14, 51, 106, 0.75);
+        backdrop-filter: blur(16px);
+      }
+      .tonal-shift-surface-container-low {
+        background-color: #f6f3ef;
+      }
+      .surface-dim-tonal-grounding {
+        background-color: #dcdad6;
+      }
+      .perspective-text {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      }
+      input[type="date"]::-webkit-calendar-picker-indicator {
+        filter: invert(1); /* Turns a black icon white */
+      }
+    </style>
+  </head>
+  <body
+    class="bg-background text-on-background font-body selection:bg-primary-fixed-dim selection:text-primary overflow-x-hidden"
+  >
+    <!-- TopNavBar Implementation -->
+    <nav
+      class="fixed top-0 w-full chg-nav-z-menu chg-nav-glass-morphism shadow-sm font-manrope h-[75px]"
+    >
+      <div
+        class="flex justify-between items-center max-w-screen-2xl mx-auto px-6 h-full"
+      >
+        <!-- Brand Identity -->
+        <a class="flex items-center gap-3 shrink-0" href="../index.html">
+          <img src="../images/dental-logo.png" class="img-fluid" width="240" />
+        </a>
+        <!-- Desktop Navigation Links -->
+        <div class="hidden md:flex items-center gap-10 h-full">
+          <a
+            class="font-manrope tracking-widest text-sm chg-nav-link chg-nav-active-nav-link"
+            href="../index.html"
+            >HOME</a
+          >
+          <!-- SERVICES Full-Width Mega Menu -->
+          <div
+            class="h-full flex items-center chg-nav-link-group static"
+            id="chg-nav-services-nav"
+          >
+            <a href="../services.html"
+              ><div class="flex items-center gap-1 cursor-pointer py-2 group">
+                <span
+                  class="font-manrope tracking-widest text-sm chg-nav-link group-hover:text-primary transition-colors uppercase"
+                  >Services</span
+                >
+                <span
+                  class="material-symbols-outlined text-lg text-secondary group-hover:text-primary transition-transform duration-300"
+                  >expand_more</span
+                >
+              </div></a
+            >
+            <div
+              class="chg-nav-dropdown-container absolute top-[70px] left-0 right-0 w-full flex justify-center bg-white border-b border-primary/5"
+              id="chg-nav-services-dropdown"
+            >
+              <div class="max-w-8xl w-full px-6 py-4">
+                <div class="grid grid-cols-6 gap-2">
+                  <!-- Invisalign -->
+                  <a
+                    class="items-center gap-2 p-4 rounded-xl bg-primary text-white hover:bg-blue-100 hover:text-primary transition-all group"
+                    href="../services/invisalign.html"
+                  >
+                    <img
+                      alt="Invisalign"
+                      class="w-full h-40 rounded-lg object-cover shrink-0 shadow-sm"
+                      src="../images/services/invisalign-new.jpg"
+                    />
+                    <div
+                      class="align-items-center items-center text-center gap-2 mt-4"
+                    >
+                      <h4 class="font-bold text-lg">Invisalign</h4>
+                    </div>
+                  </a>
+                  <!-- Dental Implants -->
+                  <a
+                    class="items-start gap-2 p-4 rounded-xl bg-primary text-white hover:bg-blue-100 hover:text-primary transition-all group"
+                    href="../services/dental-implants.html"
+                  >
+                    <img
+                      alt="Implants"
+                      class="w-full h-40 rounded-lg object-cover shrink-0 shadow-sm"
+                      src="../images/services/dental_implant.png"
+                    />
+                    <div>
+                      <div class="items-center text-center gap-2 mt-4">
+                        <h4 class="font-bold text-md">Dental Implants</h4>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- Dental Crowns -->
+                  <a
+                    class="items-start gap-2 p-4 rounded-xl bg-primary text-white hover:bg-blue-100 hover:text-primary transition-all group"
+                    href="../services/dental-crowns.html"
+                  >
+                    <img
+                      alt="Crowns"
+                      class="w-full h-40 rounded-lg object-cover shrink-0 shadow-sm"
+                      src="../images/dental-crown.png"
+                    />
+                    <div>
+                      <div class="items-center text-center gap-2 mb-2 mt-4">
+                        <h4 class="font-bold text-md">Dental Crowns</h4>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- CEREC Crown -->
+                  <a
+                    class="items-start gap-2 p-4 rounded-xl bg-primary text-white hover:bg-blue-100 hover:text-primary transition-all group"
+                    href="../services/cerec-crown.html"
+                  >
+                    <img
+                      alt="CEREC"
+                      class="w-full h-40 rounded-lg object-cover shrink-0 shadow-sm"
+                      src="../images/dental_creg.png"
+                    />
+                    <div>
+                      <div class="items-center text-center gap-2 mt-4">
+                        <h4 class="font-bold text-md">CEREC Crown</h4>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- Teeth Whitening -->
+                  <a
+                    class="items-start gap-2 p-4 rounded-xl bg-primary text-white hover:bg-blue-100 hover:text-primary transition-all group"
+                    href="../services/teeth-whitening.html"
+                  >
+                    <img
+                      alt="Teeth Whitening"
+                      class="w-full h-40 rounded-lg object-cover shrink-0 shadow-sm"
+                      src="../images/white-6.jpg"
+                    />
+                    <div>
+                      <div class="items-center text-center gap-2 mt-4">
+                        <h4 class="font-bold text-md">Teeth Whitening</h4>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- Denture Services -->
+                  <a
+                    class="items-start gap-2 p-4 rounded-xl bg-primary text-white hover:bg-blue-100 hover:text-primary transition-all group"
+                    href="../services/denture-services.html"
+                  >
+                    <img
+                      alt="Denture"
+                      class="w-full h-40 rounded-lg object-cover shrink-0 shadow-sm"
+                      src="../images/custom.png"
+                    />
+                    <div>
+                      <div class="items-center text-center mt-4">
+                        <h4 class="font-bold text-md">Denture Services</h4>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="mt-2 pt-4 border-t border-primary/5 flex justify-center"
+                >
+                  <a
+                    class="bg-white text-primary border-2 border-primary px-10 py-3 rounded-full font-bold text-sm flex items-center gap-2 hover:shadow-lg hover:shadow-primary/20 transition-all"
+                    href="../services.html"
+                  >
+                    View All Clinical Services
+                    <span class="material-symbols-outlined text-sm"
+                      >arrow_forward</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="font-manrope tracking-widest text-sm chg-nav-link"
+            href="../about_us.html"
+            >ABOUT US</a
+          >
+          <!-- LOCATIONS Dropdown -->
+          <div
+            class="relative h-full flex items-center chg-nav-link-group"
+            id="chg-nav-locations-nav"
+          >
+            <div class="flex items-center gap-1 cursor-pointer py-2 group">
+              <span
+                class="font-manrope tracking-widest text-sm chg-nav-link group-hover:text-primary transition-colors uppercase"
+                >Locations</span
+              >
+              <span
+                class="material-symbols-outlined text-lg text-secondary group-hover:text-primary transition-transform duration-300"
+                >expand_more</span
+              >
+            </div>
+            <div
+              class="chg-nav-dropdown-container absolute top-full left-0 pt-2 w-72"
+              id="chg-nav-locations-dropdown"
+            >
+              <div
+                class="bg-white rounded-xl shadow-[0_20px_50px_rgba(0,30,73,0.12)] border border-primary/5 overflow-hidden"
+              >
+                <div class="p-2">
+                  <a
+                    class="flex items-center gap-4 p-4 rounded-lg hover:bg-blue-100 group transition-all"
+                    href="../burlington-location.html"
+                  >
+                    <span
+                      class="material-symbols-outlined text-primary/60 group-hover:text-primary"
+                      >location_on</span
+                    >
+                    <span class="font-semibold text-primary">Burlington</span>
+                    <span
+                      class="ml-auto material-symbols-outlined text-primary/30 group-hover:translate-x-1 transition-transform"
+                      >chevron_right</span
+                    >
+                  </a>
+                  <a
+                    class="flex items-center gap-4 p-4 rounded-lg hover:bg-blue-100 group transition-all"
+                    href="../oakville-location.html"
+                  >
+                    <span
+                      class="material-symbols-outlined text-primary/60 group-hover:text-primary"
+                      >apartment</span
+                    >
+                    <span class="font-semibold text-primary">Oakville</span>
+                    <span
+                      class="ml-auto material-symbols-outlined text-primary/30 group-hover:translate-x-1 transition-transform"
+                      >chevron_right</span
+                    >
+                  </a>
+                  <a
+                    class="flex items-center gap-4 p-4 rounded-lg hover:bg-blue-100 group transition-all"
+                    href="../mississauga-location.html"
+                  >
+                    <span
+                      class="material-symbols-outlined text-primary/60 group-hover:text-primary"
+                      >health_and_safety</span
+                    >
+                    <span class="font-semibold text-primary">Mississauga</span>
+                    <span
+                      class="ml-auto material-symbols-outlined text-primary/30 group-hover:translate-x-1 transition-transform"
+                      >chevron_right</span
+                    >
+                  </a>
+                </div>
+                <div
+                  class="bg-blue-100 p-4 flex justify-center border-t border-primary/5"
+                >
+                  <a
+                    class="flex items-center gap-2 text-sm font-bold text-primary hover:gap-3 transition-all"
+                    href="../locations_page.html"
+                  >
+                    See All Locations
+                    <span class="material-symbols-outlined text-sm"
+                      >arrow_forward</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="font-manrope tracking-widest text-sm chg-nav-link"
+            href="../reviews.html"
+            >REVIEWS</a
+          >
+        </div>
+        <!-- Action Cluster -->
+        <div class="flex items-center gap-4">
+          <a href="../book-appointment.html"
+            ><button
+              class="hidden md:flex bg-primary text-white px-7 py-2 rounded-full font-bold text-sm items-center gap-2 shadow-lg shadow-primary/20 hover:shadow-primary/30 active:scale-95 transition-all duration-300"
+            >
+              Book Appointment
+              <span class="material-symbols-outlined text-2xl">call</span>
+            </button></a
+          >
+          <!-- Mobile Menu Trigger -->
+          <button
+            class="md:hidden p-2 text-primary active:scale-90 transition-transform flex items-center justify-center"
+            id="chg-nav-mobile-menu-btn"
+          >
+            <span
+              class="material-symbols-outlined text-3xl"
+              id="chg-nav-menu-icon"
+              >menu</span
+            >
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Nav Drawer -->
+      <div
+        class="fixed inset-0 top-[70px] bg-white z-[90] translate-x-full md:hidden flex flex-col"
+        id="chg-nav-mobile-nav"
+      >
+        <div class="flex-1 overflow-y-auto px-8 py-10 flex flex-col">
+          <a
+            class="text-2xl font-extrabold text-primary border-b border-primary/5 pb-4 mb-8"
+            href="../index.html"
+            >HOME</a
+          >
+          <!-- Mobile Services Section -->
+          <div class="mb-8 border-b border-primary/5 pb-4">
+            <button
+              class="w-full flex justify-between items-center text-2xl font-extrabold text-primary"
+              id="chg-nav-mobile-services-toggle"
+            >
+              SERVICES
+              <span
+                class="material-symbols-outlined transition-transform duration-300"
+                >expand_more</span
+              >
+            </button>
+            <div
+              class="flex flex-col gap-5 pl-4 mt-6 hidden overflow-hidden"
+              id="chg-nav-mobile-services-panel"
+            >
+              <a
+                class="text-lg font-bold text-secondary flex items-center gap-4"
+                href="../services/invisalign.html"
+                ><span class="material-symbols-outlined text-primary/40"
+                  >align_items_stretch</span
+                >
+                Invisalign</a
+              >
+              <a
+                class="text-lg font-bold text-secondary flex items-center gap-4"
+                href="../services/dental-implants.html"
+                ><span class="material-symbols-outlined text-primary/40"
+                  >medical_services</span
+                >
+                Dental Implants</a
+              >
+              <a
+                class="text-lg font-bold text-secondary flex items-center gap-4"
+                href="../services/dental-crowns.html"
+                ><span class="material-symbols-outlined text-primary/40"
+                  >dentistry</span
+                >
+                Dental Crowns</a
+              >
+              <a
+                class="text-lg font-bold text-secondary flex items-center gap-4"
+                href="../services/cerec-crown.html"
+                ><span class="material-symbols-outlined text-primary/40"
+                  >precision_manufacturing</span
+                >
+                CEREC Crown</a
+              >
+              <a
+                class="text-lg font-bold text-secondary flex items-center gap-4"
+                href="../services/teeth-whitening.html"
+                ><span class="material-symbols-outlined text-primary/40"
+                  >flare</span
+                >
+                Teeth Whitening</a
+              >
+              <a
+                class="text-lg font-bold text-secondary flex items-center gap-4"
+                href="../services/denture-services.html"
+                ><span class="material-symbols-outlined text-primary/40"
+                  >format_paint</span
+                >
+                Denture Services</a
+              >
+              <a
+                class="text-sm font-bold text-primary mt-2 flex items-center gap-2"
+                href="../services.html"
+                >View All Services
+                <span class="material-symbols-outlined text-xs"
+                  >arrow_forward</span
+                ></a
+              >
+            </div>
+          </div>
+          <a
+            class="text-2xl font-extrabold text-primary border-b border-primary/5 pb-4 mb-8"
+            href="../about_us.html"
+            >ABOUT US</a
+          >
+          <!-- Mobile Locations Section -->
+          <div class="mb-8 border-b border-primary/5 pb-4">
+            <button
+              class="w-full flex justify-between items-center text-2xl font-extrabold text-primary"
+              id="chg-nav-mobile-locations-toggle"
+            >
+              LOCATIONS
+              <span
+                class="material-symbols-outlined transition-transform duration-300"
+                >expand_more</span
+              >
+            </button>
+            <div
+              class="flex flex-col gap-5 pl-4 mt-6 hidden overflow-hidden"
+              id="chg-nav-mobile-locations-panel"
+            >
+              <a
+                class="text-lg font-bold text-secondary flex items-center gap-4"
+                href="../burlington-location.html"
+                ><span class="material-symbols-outlined text-primary/40"
+                  >location_on</span
+                >
+                Burlington</a
+              >
+              <a
+                class="text-lg font-bold text-secondary flex items-center gap-4"
+                href="../oakville-location.html"
+                ><span class="material-symbols-outlined text-primary/40"
+                  >apartment</span
+                >
+                Oakville</a
+              >
+              <a
+                class="text-lg font-bold text-secondary flex items-center gap-4"
+                href="../mississauga-location.html"
+                ><span class="material-symbols-outlined text-primary/40"
+                  >health_and_safety</span
+                >
+                Mississauga</a
+              >
+            </div>
+          </div>
+          <a
+            class="text-2xl font-extrabold text-primary border-b border-primary/5 pb-4 mb-8"
+            href="../reviews.html"
+            >REVIEWS</a
+          >
+          <!-- Book Appointment as final item -->
+          <div class="mt-4 pb-10">
+            <a href="../book-appointment.html"
+              ><button
+                class="w-full bg-primary text-white py-5 rounded-full font-bold text-lg shadow-xl shadow-primary/20 flex items-center justify-center gap-3 active:scale-95 transition-transform"
+              >
+                Book Appointment
+                <span class="material-symbols-outlined">calendar_today</span>
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="max-w-[1440px] mx-auto px-6 md:px-12 mt-20 pb-8">
+      <div class="flex flex-col lg:flex-row gap-6">
+        <!-- Left Column: Storytelling (65%) -->
+        <div class="w-full lg:w-[65%] space-y-10 mt-5">
+          <!-- Cinematic Hero -->
+          <section class="relative group">
+            <div class="rounded-[3rem] overflow-hidden aspect-[16/10] relative">
+              <img
+                alt="Radiant Smile"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                data-alt="Close-up of a stunningly bright and healthy human smile with almost invisible clear aligners in soft, natural studio lighting"
+                src="../images/services/child.avif"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent"
+              ></div>
+              <div class="absolute bottom-12 left-12 max-w-xl">
+                <h1
+                  class="text-5xl md:text-5xl font-headline font-extrabold text-white tracking-tighter leading-[0.9] text-balance"
+                >
+                  Children Dentistry
+                </h1>
+              </div>
+            </div>
+          </section>
+          <!-- 'The Art of Perfection' Section -->
+          <section class="grid relative">
+            <div
+              class="absolute -top-20 -left-20 w-64 h-64 bg-primary-container/10 rounded-full blur-3xl"
+            ></div>
+            <div class="space-y-8 relative z-10">
+              <h2
+                class="text-4xl font-headline font-bold text-primary tracking-tight"
+              >
+                What You Need to Know About Children’s Dentistry
+              </h2>
+              <p class="text-secondary text-lg body-lg leading-relaxed">
+                Over the last few decades, Pediatric Dentistry has developed
+                into a more personal experience. By supporting your child’s oral
+                and emotional health, our Pediatric dentists guide both parent
+                and child through each appointment to ensure your experience is
+                as stress-free as possible. We offer various sedation dentistry
+                options.<br /><br />
+                It is important to bring your child in to be seen by a dentist
+                as soon as possible to ensure healthy teeth and gum formation.
+                Visiting the office prior to the first appointment can help
+                children feel more comfortable with our family dental team.
+                Contact Chagger Dental today to
+                <a href="../book-appointment.html" target="_blank"
+                  >book a new patient appointment</a
+                >
+                with our team.
+              </p>
+            </div>
+          </section>
+          <!-- The Sanctuary Journey -->
+          <section class="py-1">
+            <div
+              class="relative space-y-8 before:content-[''] before:absolute before:left-[1.25rem] before:top-4 before:bottom-4 before:w-[2px] before:bg-surface-container-highest"
+            >
+              <!-- Step 1 -->
+              <div class="relative pl-16 group">
+                <div
+                  class="absolute left-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold z-10 transition-transform duration-500 group-hover:scale-110"
+                >
+                  1
+                </div>
+                <h3 class="text-2xl font-bold text-primary mb-4">
+                  What is Pediatric Dentistry?
+                </h3>
+                <p class="text-secondary leading-relaxed text-lg">
+                  Pediatric dentistry is the branch of dentistry that is
+                  responsible for the diagnosis and treatment of childhood
+                  dental diseases from early childhood until puberty.
+
+                  <br /><br />
+                  The objective of pediatric dentistry treatments is to
+                  accompany the growth and development of correct teeth to
+                  detect and avoid severe oral problems in adulthood. At this
+                  age it is very important to incorporate good health and dental
+                  hygiene habits, as well as provide an immediate response to
+                  problems that may appear, in many cases regarding temporary
+                  dentition, or baby teeth.<br /><br />
+                  Among the diseases and problems that can appear in these
+                  stages and that require immediate action, cavities and dental
+                  trauma stand out.
+                </p>
+              </div>
+              <!-- Step 2 -->
+              <div class="relative pl-16 group">
+                <div
+                  class="absolute left-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold z-10"
+                >
+                  2
+                </div>
+                <h3 class="text-2xl font-bold text-primary mb-4">
+                  The Attitude About Primary Teeth
+                </h3>
+                <p class="text-secondary leading-relaxed text-lg">
+                  Historically, most parents, and even a number of dentists,
+                  didn’t think baby teeth were of much importance. If a child
+                  lost a baby tooth due to wear, decay or other oral hygiene
+                  issues it was simply thought the lost baby tooth would
+                  naturally be replaced by a healthy adult tooth. This school of
+                  thought proved to be detrimental to child development. Studies
+                  began to show the maintenance and care of baby teeth had a
+                  significant impact on long-term oral health, growth and
+                  development.
+
+                  <br /><br />
+                  Pediatric dentists of today now practice all measures
+                  available to help children keep their primary teeth as long as
+                  nature allows. The health and maintenance of primary teeth
+                  prevents long-term issues common in adult teeth. These issues
+                  include:
+                </p>
+                <ul
+                  class="items-center gap-2 text-sm text-gray-500 mt-8 space-y-4"
+                >
+                  <li
+                    class="before:content-['•'] before:mr-2 text-secondary leading-relaxed text-lg"
+                  >
+                    Misalignments caused from early loss of primary teeth
+                  </li>
+                  <li
+                    class="before:content-['•'] before:mr-2 text-secondary leading-relaxed text-lg"
+                  >
+                    Decay that spreads to permanent teeth
+                  </li>
+                  <li
+                    class="before:content-['•'] before:mr-2 text-secondary leading-relaxed text-lg"
+                  >
+                    More attractive than composite and metal crowns
+                  </li>
+                  <li
+                    class="before:content-['•'] before:mr-2 text-secondary leading-relaxed text-lg"
+                  >
+                    Infections that spread to permanent teeth
+                  </li>
+                  <li
+                    class="before:content-['•'] before:mr-2 text-secondary leading-relaxed text-lg"
+                  >
+                    Gum disease
+                  </li>
+                  <li
+                    class="before:content-['•'] before:mr-2 text-secondary leading-relaxed text-lg"
+                  >
+                    The need for long-term/extensive orthodontic care
+                  </li>
+                </ul>
+                <p class="text-secondary leading-relaxed text-lg mt-5">
+                  These issues can be avoided when making it a priority to visit
+                  the dentist with your child within the first few months of
+                  their primary teeth arriving.
+                </p>
+              </div>
+              <!-- Step 3 -->
+              <div class="relative pl-16 group">
+                <div
+                  class="absolute left-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold z-10"
+                >
+                  3
+                </div>
+                <h3 class="text-2xl font-bold text-primary mb-4">
+                  Paediatric Dental Health Issue Awareness
+                </h3>
+                <p class="text-secondary leading-relaxed text-lg">
+                  Parents play an important role in their children and teens
+                  dental health education. Educating yourself on common dental
+                  emergency situations that arise for children and the proper
+                  ways to care for your child’s teeth, are ways to ensure your
+                  child develops strong oral hygiene practices early in life
+                  that will result in healthy teeth.
+
+                  <br /><br />
+                  These features make them feel and look like real teeth and it
+                  can be difficult for a person to tell that you have false
+                  teeth. CEREC tooth crowns and dental restorations are ideal
+                  for repairing a newly damaged tooth or for replacing old metal
+                  crowns and fillings.<br /><br />
+                  In order to develop your child’s smile to its fullest
+                  potential, there are a few things parents should know. One of
+                  the biggest issues that arise in children dentistry is an
+                  ailment known as “baby bottle mouth”. “Baby bottle mouth” is
+                  tooth decay that a child develops as a result of teeth’s
+                  prolonged exposure to beverages that are high in sugar. This
+                  can be juices or sodas in sippy cups in toddlers, or milk or
+                  formula in bottles for babies. Using a bottle as a pacifier
+                  for your upset baby, or putting your child to bed with a
+                  bottle of milk may help them sleep, but the milk then coats
+                  the teeth, leaving the residue to causes decay while they
+                  sleep. Feeding your child prior to bedtime and rinsing their
+                  mouth before sleep will cleanse the mouth of any milk or
+                  formula residue. Exercising these preventative dentistry
+                  practices will help keep your child’s teeth healthy.
+                </p>
+              </div>
+              <!-- Step 4 -->
+              <div class="relative pl-16 group">
+                <div
+                  class="absolute left-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold z-10"
+                >
+                  4
+                </div>
+                <h3 class="text-2xl font-bold text-primary mb-4">
+                  Pediatric Dentistry Treatment Plans for Children
+                </h3>
+                <p class="text-secondary leading-relaxed text-lg">
+                  Visiting a Chagger Dental office near you and filling out the
+                  medical history and new patient forms for your child is the
+                  first step in ensuring your child develops healthy and strong
+                  adult teeth. Pediatric Dentistry for children can be
+                  overwhelming at first but the Chagger Dental team is here to
+                  help. Our highly trained team from the most respected dental
+                  schools across the country take pride in patient care. Call us
+                  today to book an appointment for your child’s first visit to
+                  the dentist. With the right dental treatment plan and oral
+                  hygiene care, together we can make your child’s smile healthy
+                  and beautiful.
+                </p>
+              </div>
+
+              <!-- step 6 -->
+              <div class="relative pl-16 group">
+                <div
+                  class="absolute left-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold z-10"
+                >
+                  5
+                </div>
+                <h3 class="text-2xl font-bold text-primary mb-4">
+                  Burlington Pediatric Dentistry | Chagger Dental
+                </h3>
+
+                <ul
+                  class="items-center gap-2 text-sm text-gray-500 mt-8 space-y-4"
+                >
+                  <li
+                    class="text-secondary leading-relaxed text-lg list-disc list-outside"
+                  >
+                    Remember that the office is full of sights, sounds, and
+                    smells that the child is not used to. Make sure the office
+                    is bright and warm, and don’t be afraid to use toys and
+                    drawings in the waiting room to help your child relax.
+                  </li>
+                  <li
+                    class="text-secondary leading-relaxed text-lg list-disc list-outside mt-4"
+                  >
+                    Be waiting with a smiling face when the child arrives for
+                    the appointment. If you are placing instruments or typing on
+                    a computer, the patient will not feel welcome.
+                  </li>
+                  <li
+                    class="text-secondary leading-relaxed text-lg list-disc list-outside mt-4"
+                  >
+                    Ensure that only absolutely necessary instruments and
+                    equipment are displayed.
+                  </li>
+                  <li
+                    class="text-secondary leading-relaxed text-lg list-disc list-outside mt-4"
+                  >
+                    The dental nurse can be of great help while the child
+                    receives treatment. You are in an ideal position to
+                    congratulate the child on her good behavior. A friendly
+                    smile and a calm, caring approach will go a long way.
+                  </li>
+                  <li
+                    class="text-secondary leading-relaxed text-lg list-disc list-outside mt-4"
+                  >
+                    Give the patient control by establishing a “stop signal,”
+                    such as a raised hand.
+                  </li>
+                </ul>
+                <p class="text-secondary leading-relaxed text-lg mt-5">
+                  Don’t forget that parents will have a great influence on the
+                  child’s perception of their visit. Try to have them present,
+                  but participate discreetly, offering minimal contact during
+                  the treatment.<br /><br />
+                  Contact us if you have any questions, at Chagger Dental we
+                  have the best specialists. Call and get informed without any
+                  commitment.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- Right Column: Sticky Booking Module (35%) -->
+        <div class="w-full lg:w-[35%]">
+          <div class="sticky" style="top: 12%">
+            <div
+              class="bg-chagger-blue text-white p-10 pt-6 rounded-[3rem] editorial-shadow border border-outline-variant/5"
+            >
+              <div class="mb-4">
+                <h2
+                  class="text-3xl font-headline text-center font-extrabold text-white"
+                >
+                  Book Appointment
+                </h2>
+              </div>
+              <form class="space-y-3">
+                <!-- Select: Patient Type -->
+                <div class="space-y-2">
+                  <label
+                    class="block text-[12px] font-bold uppercase tracking-widest text-white/80"
+                    >Patient Type</label
+                  >
+                  <div class="flex gap-6">
+                    <label
+                      class="relative flex items-center gap-3 cursor-pointer group"
+                    >
+                      <input
+                        checked=""
+                        class="peer hidden"
+                        name="patient_type"
+                        type="radio"
+                        value="new"
+                      />
+                      <div
+                        class="w-5 h-5 rounded-full border-2 border-white/30 peer-checked:border-white peer-checked:border-[6px] transition-all"
+                      ></div>
+                      <span
+                        class="text-white/70 text-sm group-hover:text-white transition-colors"
+                        >New Patient</span
+                      >
+                    </label>
+                    <label
+                      class="relative flex items-center gap-3 cursor-pointer group"
+                    >
+                      <input
+                        class="peer hidden"
+                        name="patient_type"
+                        type="radio"
+                        value="returning"
+                      />
+                      <div
+                        class="w-5 h-5 rounded-full border-2 border-white/30 peer-checked:border-white peer-checked:border-[6px] transition-all"
+                      ></div>
+                      <span
+                        class="text-white/70 text-sm group-hover:text-white transition-colors"
+                        >Returning Patient</span
+                      >
+                    </label>
+                  </div>
+                </div>
+                <!-- Section: location -->
+                <div class="space-y-2">
+                  <label
+                    class="text-[12px] font-bold uppercase tracking-widest text-white ml-1"
+                    >Preferred Location</label
+                  >
+                  <select
+                    class="w-full bg-surface-container-high border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary/20 text-on-surface transition-all appearance-none"
+                  >
+                    <option>Burlington</option>
+                    <option>Oakville</option>
+                    <option>Mississauga</option>
+                  </select>
+                </div>
+                <!-- select: Identity -->
+                <div class="space-y-2">
+                  <label
+                    class="text-[12px] font-bold uppercase tracking-widest text-white ml-1"
+                    >Full Name</label
+                  >
+                  <input
+                    class="w-full glass-input rounded-xl px-4 py-3 focus:ring-2 focus:ring-white/50 transition-all placeholder:text-secondary placeholder:text-md"
+                    placeholder="Full Name"
+                    type="text"
+                  />
+                </div>
+
+                <div class="space-y-2">
+                  <label
+                    class="text-[12px] font-bold uppercase tracking-widest text-white ml-1"
+                    >Email Address</label
+                  >
+                  <input
+                    class="w-full bg-surface-container-high glass-input border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-white/50 transition-all placeholder:text-secondary placeholder:text-md"
+                    placeholder="Your Email Address"
+                    type="email"
+                  />
+                </div>
+                <div class="space-y-2">
+                  <label
+                    class="text-[12px] font-bold uppercase tracking-widest text-white ml-1"
+                    >Phone Number</label
+                  >
+                  <input
+                    class="w-full bg-surface-container-high border-none glass-input rounded-xl px-4 py-3 focus:ring-2 focus:ring-white/50 transition-all placeholder:text-secondary placeholder:text-md"
+                    placeholder="Your Mobile Number"
+                    type="tel"
+                  />
+                </div>
+                <div class="space-y-2">
+                  <label
+                    class="text-[12px] font-bold uppercase tracking-widest text-white ml-1"
+                    >Address</label
+                  >
+                  <input
+                    class="w-full bg-surface-container-high border-none glass-input rounded-xl px-4 py-3 focus:ring-2 focus:ring-white/50 transition-all placeholder:text-secondary placeholder:text-md"
+                    placeholder="Your Address"
+                    type="text"
+                  />
+                </div>
+                <!-- Date -->
+                <div class="space-y-2">
+                  <label
+                    class="text-xs font-bold uppercase tracking-widest text-white ml-1"
+                    >Preferred Date</label
+                  >
+                  <input
+                    class="w-full bg-white/10 border-none rounded-xl text-white/30 placeholder-white/40 focus:ring-2 focus:ring-primary-fixed"
+                    type="date"
+                  />
+                </div>
+                <!-- Callback Preferences -->
+                <div class="space-y-2">
+                  <span
+                    class="text-[10px] font-bold uppercase tracking-widest text-white block ml-1"
+                    >Preferred Time for Call-Back</span
+                  >
+                  <div class="grid grid-cols-3 gap-3">
+                    <label
+                      class="flex items-center gap-3 p-3 rounded-xl bg-surface-container border border-transparent hover:border-primary/20 cursor-pointer transition-all"
+                    >
+                      <input
+                        class="rounded text-primary focus:ring-primary/20"
+                        type="checkbox"
+                      />
+                      <span class="text-xs text-primary font-medium"
+                        >Morning</span
+                      >
+                    </label>
+                    <label
+                      class="flex items-center gap-3 p-3 rounded-xl bg-surface-container border border-transparent hover:border-primary/20 cursor-pointer transition-all"
+                    >
+                      <input
+                        class="rounded text-primary focus:ring-primary/20"
+                        type="checkbox"
+                      />
+                      <span class="text-xs text-primary font-medium"
+                        >Afternoon</span
+                      >
+                    </label>
+                    <label
+                      class="flex items-center gap-3 p-3 rounded-xl bg-surface-container border border-transparent hover:border-primary/20 cursor-pointer transition-all"
+                    >
+                      <input
+                        class="rounded text-primary focus:ring-primary/20"
+                        type="checkbox"
+                      />
+                      <span class="text-xs text-primary font-medium"
+                        >Evening</span
+                      >
+                    </label>
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <label
+                    class="text-[12px] font-bold uppercase tracking-widest text-white ml-1"
+                    >Message</label
+                  >
+                  <textarea
+                    class="w-full bg-surface-container-high glass-input border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-white/50 transition-all placeholder:text-secondary placeholder:text-md"
+                    placeholder="Tell us about your dental goals or any concerns..."
+                    rows="4"
+                  ></textarea>
+                </div>
+                <div class="">
+                  <button
+                    class="w-full bg-white text-primary py-5 rounded-full font-headline font-bold text-lg hover:bg-primary hover:text-white shadow-lg shadow-primary/20 flex items-center justify-center gap-3 active:scale-[0.98]"
+                    type="submit"
+                  >
+                    Book Appointment
+                    <span
+                      class="material-symbols-outlined"
+                      data-icon="arrow_forward"
+                      >arrow_forward</span
+                    >
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="max-w-8xl mt-20 mx-auto px-8 mb-10">
+        <h2
+          class="text-5xl md:text-6xl mb-10 text-center text-primary font-headline font-extrabold"
+        >
+          Other Services
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch">
+          <!-- Card 1: Precision Bonding (Large Vertical) -->
+          <div
+            class="md:col-span-5 group relative overflow-hidden rounded-[2.5rem] min-h-[600px] shadow-sm transition-all duration-700"
+          >
+            <div class="absolute inset-0 z-0">
+              <img
+                class="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-110"
+                data-alt="Close-up of professional dental bonding procedure with focused blue curing light and dentist's steady gloved hands"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7-_J5CF-vraOPT-Ud0MdwSXJiKV4LCldNo-MZFAk5S2XgDhx7DzHEP14Jk5uYP1f8vy38tvgGIdMqLXdwhRZJnjbQJqOox1vzqcjIs0thy8PypsUOwAfXMkzO3IdQbZX5-EakG-Kpdt2KDbEcun9d9UDeilWWWftUmtrzE_jqrgNHFUWJ104WR87qttP7wTaB64Dzl6iCHVP2cbsvvXvm48tKpt24S43gettv3mELMjy16KjJ9b69JV72CoBE23JdkRAiVjINNq-E"
+              />
+            </div>
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent opacity-60"
+            ></div>
+            <div
+              class="absolute inset-0 glass-primary translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out p-12 flex flex-col justify-end text-white"
+            >
+              <h3 class="font-headline text-4xl font-bold mb-4">
+                Dental Bonding
+              </h3>
+              <div
+                class="mt-1 mb-4 flex items-center text-center align-items-center gap-3 text-white font-semibold group/link cursor-pointer"
+              >
+                <span class="text-sm uppercase tracking-widest"
+                  >Learn More</span
+                >
+                <span
+                  class="material-symbols-outlined translate-x-0 group-hover/link:translate-x-2 transition-transform"
+                  >trending_flat</span
+                >
+              </div>
+              <p
+                class="text-on-primary-container text-lg mb-8 leading-relaxed font-light"
+              >
+                Seamless restorations using advanced composite artistry to
+                perfect chips, gaps, and surface imperfections.
+              </p>
+            </div>
+            <a
+              href="../services/bonding.html"
+              class="absolute inset-0 z-10"
+            ></a>
+            <div
+              class="absolute bottom-10 left-10 text-white z-10 transition-opacity duration-500 group-hover:opacity-0"
+            >
+              <h3 class="font-headline text-3xl font-bold tracking-tight">
+                Dental Bonding
+              </h3>
+              <p class="opacity-80 font-light">Artistic Restorations</p>
+            </div>
+          </div>
+          <!-- Right Column: Nested Grid -->
+          <div class="md:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Card 2: Invisalign Mastery -->
+            <div
+              class="group relative overflow-hidden rounded-[2rem] h-[350px] shadow-sm"
+            >
+              <div class="absolute inset-0 z-0">
+                <img
+                  class="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-110"
+                  data-alt="Beautifully lit close-up of a clear orthodontic aligner being held by a patient with a soft-focus radiant smile in background"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBR1TwDU_jfvVfH1ij7ERVC4s_E9qfdGWqSgGWTWZfkUaFlczF2Yb4szN6eCM1a3GL08wQvrHTJrwMKcUVtkVPniYdLuMO_poN-ohVVzX1Ph1a1jd7QsxpWhXvm0dxe6-F8U6pzku7WfjUcGsEvX7OSK-iemUhIZx8Fh4dnoLG8KoTQXvHlQ5AlR4pbEBv6VEtoRvNcQd83DTS5IvNnQp7XHdwsTJV41GvG4tnYpTzMbZLs0l_EETOWB-fTWxd_RGVrzlrv-3Ti_1FT"
+                />
+              </div>
+              <div
+                class="absolute inset-0 glass-primary translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out p-8 flex flex-col justify-center text-white text-center"
+              >
+                <h3 class="font-headline text-2xl font-bold mb-2">
+                  Invisalign
+                </h3>
+                <p class="text-sm opacity-90 leading-relaxed font-light mb-6">
+                  Discrete orthodontic engineering for a perfectly aligned smile
+                  without the visual weight of traditional braces.
+                </p>
+                <span class="material-symbols-outlined mx-auto text-3xl"
+                  >auto_fix_high</span
+                >
+                <a href="../services/invisalign.html"
+                  ><div
+                    class="mt-6 flex items-center text-center align-items-center gap-3 text-white font-semibold group/link cursor-pointer"
+                  >
+                    <span class="text-sm uppercase tracking-widest"
+                      >Learn More</span
+                    >
+                    <span
+                      class="material-symbols-outlined translate-x-0 group-hover/link:translate-x-2 transition-transform"
+                      >trending_flat</span
+                    >
+                  </div></a
+                >
+              </div>
+              <a
+                href="../services/invisalign.html"
+                class="absolute inset-0 z-10"
+              ></a>
+              <div
+                class="absolute bottom-6 left-6 text-white z-10 group-hover:opacity-0 transition-opacity"
+              >
+                <h3 class="font-headline text-xl font-bold">Invisalign</h3>
+              </div>
+            </div>
+            <!-- Card 3: Signature Crowns -->
+            <div
+              class="group relative overflow-hidden rounded-[2rem] h-[350px] shadow-sm"
+            >
+              <div class="absolute inset-0 z-0">
+                <img
+                  class="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-110"
+                  data-alt="Detailed macro shot of a porcelain dental crown being crafted in a modern laboratory under precise clinical lighting"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvd3HENY3taXVTRabI2Uvfipj_odbJoMWlSha0w7YfIJlfnC9bAMx_cdyTAlGxLIb1A34B7lK666bqa-IY20XDFLpdNLB8nz9VlUt4Ei9srGFkIleSzBf-RgtcuNruXxsCEW1pwN2Lpg3rgncDo9hCxrINS6vjUKPfrOjg4DtzXRpVJ20rNWB0q7rCJ-R8NQGdLPbq0jYgcGIJZ3cS8AxGagaEZ0dUVetjhyD6gbWs2CNMfSilTCsgDL3VVO2i6ASe2L7K4sI2vqas"
+                />
+              </div>
+              <div
+                class="absolute inset-0 glass-primary translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out p-8 flex flex-col justify-center text-white text-center"
+              >
+                <h3 class="font-headline text-2xl font-bold mb-2">
+                  Dental Crowns
+                </h3>
+                <p class="text-sm opacity-90 leading-relaxed font-light mb-6">
+                  Custom-milled porcelain that mimics the natural translucency
+                  and strength of biological tooth enamel.
+                </p>
+                <span class="material-symbols-outlined mx-auto text-3xl"
+                  >workspace_premium</span
+                >
+                <a href="../services/dental-crowns.html"
+                  ><div
+                    class="mt-6 flex items-center text-center align-items-center gap-3 text-white font-semibold group/link cursor-pointer"
+                  >
+                    <span class="text-sm uppercase tracking-widest"
+                      >Learn More</span
+                    >
+                    <span
+                      class="material-symbols-outlined translate-x-0 group-hover/link:translate-x-2 transition-transform"
+                      >trending_flat</span
+                    >
+                  </div></a
+                >
+              </div>
+              <a
+                href="../services/dental-crowns.html"
+                class="absolute inset-0 z-10"
+              ></a>
+              <div
+                class="absolute bottom-6 left-6 text-white z-10 group-hover:opacity-0 transition-opacity"
+              >
+                <h3 class="font-headline text-xl font-bold">Dental Crowns</h3>
+              </div>
+            </div>
+            <!-- Card 4: Dental Implants (Spanning) -->
+            <div
+              class="md:col-span-2 group relative overflow-hidden rounded-[2.5rem] h-[400px] shadow-sm"
+            >
+              <a
+                href="../services/dental-implants.html"
+                class="absolute inset-0 z-10"
+              ></a>
+              <div class="absolute inset-0 z-0">
+                <img
+                  class="w-full h-full object-cover object-top transition-transform duration-[2.5s] ease-out group-hover:scale-105"
+                  data-alt="Elegant portrait of a mature confident man smiling warmly in a bright modern clinical setting with soft natural light"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_qs-kL-AUOPiqUl4vmvoZVsKgodCH-jw9Wc3l8QW3TWp75OgWEwSvUvgeyohitaRGfyMthMYUU1ymOxKoSgoshkJihiJiPoi-_XnnsiAsqpfMVu4MUBj8vvqQluwJHtBzFZsjwrGqBNlAb4YTHJsQV9B_2z5v7IEr6cNddbqjsQjxmeZw8TUBc-nB9dVE8IXcsENx6kyKWJ0J8pqqQQkuVFTSWTzhTJGnv35k1IxqkBvpIlr9g1Xc8Z7yOuJrP4S_h1l1UvTW--Ad"
+                />
+              </div>
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+              ></div>
+              <div
+                class="relative h-full p-12 flex flex-col justify-end max-w-lg transition-transform duration-700 translate-y-8 group-hover:translate-y-0"
+              >
+                <div
+                  class="bg-primary-container/80 backdrop-blur-md p-8 rounded-[2rem] border border-white/10 group-hover:bg-primary-container/80 transition-colors duration-500"
+                >
+                  <h3 class="font-headline text-3xl font-bold mb-2 text-white">
+                    Dental Implants
+                  </h3>
+                  <p
+                    class="text-on-primary-container text-base leading-relaxed font-light"
+                  >
+                    The gold standard in tooth replacement, offering permanent
+                    stability and life-changing aesthetics.
+                  </p>
+
+                  <div
+                    class="mt-6 flex items-center text-center align-items-center gap-3 text-white font-semibold group/link cursor-pointer"
+                  >
+                    <span class="text-sm uppercase tracking-widest"
+                      >Learn More</span
+                    >
+                    <span
+                      class="material-symbols-outlined translate-x-0 group-hover/link:translate-x-2 transition-transform"
+                      >trending_flat</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- World-Class Interactive Map Footer Section -->
+    <section class="relative bg-primary overflow-hidden">
+      <!-- Stylized Monochromatic Map Background -->
+      <div
+        class="absolute inset-0 z-0 opacity-20 grayscale transition-all duration-700 hover:grayscale-0"
+      >
+        <img
+          alt="stylized monochromatic satellite map of a modern urban landscape with intricate street patterns and water features"
+          class="w-full h-full object-cover"
+          data-alt="stylized monochromatic satellite map of a modern urban landscape with intricate street patterns and water features"
+          data-location="Toronto"
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNtwNxX8mRrlVFiT5fJuvIUXU15yKB_e24w-vLQVD_itARERtqcMaQtCexkxD0fsHWaQUjXoj7aZmEo6RuG0qlar9V9ePT19Sa4oOtBoXle3nFAlw2256KoTE2Gbj721uPUoQlTi84J_I-rGN41QfzKmja6yAmCRMfcF-v7Zhl4Ttx2DL6jsVcF07j6-shOHMbnGEe5_Bt_HpI2jPssjOkwzFyrypU-HQwCPcPgnzSDUd1CnJxEIVoTLJBxNJh3w40nZQFr6RGB2kZ"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-primary via-transparent to-primary"
+        ></div>
+      </div>
+      <div class="relative z-10 pt-24 pb-12 px-8 max-w-screen-2xl mx-auto">
+        <!-- Footer Heading Area -->
+        <div
+          class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8"
+        >
+          <div class="max-w-xl">
+            <h2
+              class="font-headline text-4xl md:text-5xl font-bold text-on-primary leading-tight"
+            >
+              Our Locations
+            </h2>
+          </div>
+          <a href="../book-appointment.html"
+            ><button
+              class="bg-surface-container-lowest text-primary px-10 py-5 rounded-full font-headline font-bold text-lg shadow-[0_8px_32px_rgba(0,30,73,0.15)] hover:scale-105 active:scale-95 transition-all duration-300"
+            >
+              Book Appointment
+            </button></a
+          >
+        </div>
+        <!-- Floating Glassmorphism Contact Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Location Card 1 -->
+          <div
+            class="glass-card p-8 rounded-xl border border-on-primary-container/90 group cursor-pointer hover:border-on-primary-container/30 transition-all duration-500"
+            data-aos="slide-up"
+          >
+            <div class="flex justify-between items-start mb-6">
+              <div class="p-3 bg-primary-container rounded-lg">
+                <span
+                  class="material-symbols-outlined text-on-primary-container"
+                  style="font-variation-settings: &quot;FILL&quot; 1"
+                  >medical_services</span
+                >
+              </div>
+              <a href="../locations_page.html"
+                ><span
+                  class="text-xs font-label uppercase tracking-widest text-on-primary-container/60"
+                  >View All</span
+                ></a
+              >
+            </div>
+            <h3 class="font-headline text-2xl font-bold text-on-primary mb-2">
+              Oakville
+            </h3>
+            <p class="text-on-primary-container/80 mb-2 leading-relaxed">
+              231 Oak Park Blvd., Suite #108,<br />
+              Oakville, ON L6H 7S8
+            </p>
+            <div class="space-y-3 mb-4">
+              <div class="flex items-center gap-3">
+                <span
+                  class="material-symbols-outlined text-white/60 text-sm"
+                  data-icon="mail"
+                  >mail</span
+                >
+                <span class="text-primary-fixed-dim text-sm"
+                  >info@chaggerdental.com</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <span
+                  class="material-symbols-outlined text-white/60 text-sm"
+                  data-icon="call"
+                  >call</span
+                >
+                <span class="text-primary-fixed-dim text-sm">905-257-2221</span>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-4 text-on-primary text-sm font-semibold group-hover:gap-6 transition-all"
+            >
+              <a
+                href="https://www.google.ca/maps/place/Chagger+Dental/@43.4826322,-79.7163223,17z/data=!3m1!4b1!4m6!3m5!1s0x882b42caf3425545:0x7ebbd6544dc2ec11!8m2!3d43.4826322!4d-79.7163223!16s%2Fg%2F1thss03c?entry=ttu&g_ep=EgoyMDI2MDMzMS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                ><span>View on Map</span></a
+              >
+              <span class="material-symbols-outlined text-sm"
+                >arrow_forward</span
+              >
+            </div>
+          </div>
+          <!-- Location Card 2 -->
+          <div
+            class="glass-card p-8 rounded-xl border border-on-primary-container/90 group cursor-pointer hover:border-on-primary-container/30 transition-all duration-500"
+            data-aos="slide-up"
+          >
+            <div class="flex justify-between items-start mb-6">
+              <div class="p-3 bg-primary-container rounded-lg">
+                <span
+                  class="material-symbols-outlined text-on-primary-container"
+                  style="font-variation-settings: &quot;FILL&quot; 1"
+                  >medical_services</span
+                >
+              </div>
+              <a href="../locations_page.html"
+                ><span
+                  class="text-xs font-label uppercase tracking-widest text-on-primary-container/60"
+                  >View All</span
+                ></a
+              >
+            </div>
+            <h3 class="font-headline text-2xl font-bold text-on-primary mb-2">
+              Burlington
+            </h3>
+            <p class="text-on-primary-container/80 mb-6 leading-relaxed">
+              2455 Appleby Line, Suite #C08,<br />
+              Burlington, ON L7L 0B6.
+            </p>
+            <div class="space-y-3 mb-4">
+              <div class="flex items-center gap-3">
+                <span
+                  class="material-symbols-outlined text-white/60 text-sm"
+                  data-icon="mail"
+                  >mail</span
+                >
+                <span class="text-primary-fixed-dim text-sm"
+                  >info@chaggerdental.com</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <span
+                  class="material-symbols-outlined text-white/60 text-sm"
+                  data-icon="call"
+                  >call</span
+                >
+                <span class="text-primary-fixed-dim text-sm">905-336-0600</span>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-4 text-on-primary text-sm font-semibold group-hover:gap-6 transition-all"
+            >
+              <a
+                href="https://www.google.ca/maps/place/Chagger+Dental-Burlington/@43.4052011,-79.8075672,17z/data=!3m1!4b1!4m5!3m4!1s0x882b6137ad406ce9:0x74f409715649e1e0!8m2!3d43.4051972!4d-79.8053785?shorturl=1"
+                target="_blank"
+                ><span>View on Map</span></a
+              >
+              <span class="material-symbols-outlined text-sm"
+                >arrow_forward</span
+              >
+            </div>
+          </div>
+          <!-- Location Card 3 -->
+          <div
+            class="glass-card p-8 rounded-xl border border-on-primary-container/90 group cursor-pointer hover:border-on-primary-container/30 transition-all duration-500"
+            data-aos="slide-up"
+          >
+            <div class="flex justify-between items-start mb-6">
+              <div class="p-3 bg-primary-container rounded-lg">
+                <span
+                  class="material-symbols-outlined text-on-primary-container"
+                  style="font-variation-settings: &quot;FILL&quot; 1"
+                  >medical_services</span
+                >
+              </div>
+              <a href="../locations_page.html"
+                ><span
+                  class="text-xs font-label uppercase tracking-widest text-on-primary-container/60"
+                  >View All</span
+                ></a
+              >
+            </div>
+            <h3 class="font-headline text-2xl font-bold text-on-primary mb-2">
+              Mississauga
+            </h3>
+            <p class="text-on-primary-container/80 mb-6 leading-relaxed">
+              3427 Derry Rd East, Suite #201,<br />
+              Mississauga, ON L4T 4H7
+            </p>
+            <div class="space-y-3 mb-4">
+              <div class="flex items-center gap-3">
+                <span
+                  class="material-symbols-outlined text-white/60 text-sm"
+                  data-icon="mail"
+                  >mail</span
+                >
+                <span class="text-primary-fixed-dim text-sm"
+                  >info@chaggerdental.com</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <span
+                  class="material-symbols-outlined text-white/60 text-sm"
+                  data-icon="call"
+                  >call</span
+                >
+                <span class="text-primary-fixed-dim text-sm"
+                  >905-672-22441</span
+                >
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-4 text-on-primary text-sm font-semibold group-hover:gap-6 transition-all"
+            >
+              <a
+                href="https://www.google.com/maps/place/Chagger+Dental+Clinic+Mississauga/@43.7134378,-79.6324435,21z/data=!3m1!5s0x882b3be939451297:0xcf596aedfc8d3b37!4m14!1m7!3m6!1s0x882b3be924af2acd:0xb214cd5c8fcbf2ce!2sChagger+Dental+Clinic+Mississauga!8m2!3d43.7134099!4d-79.6324203!16s%2Fg%2F1v42gfnn!3m5!1s0x882b3be924af2acd:0xb214cd5c8fcbf2ce!8m2!3d43.7134099!4d-79.6324203!16s%2Fg%2F1v42gfnn?hl=en&entry=ttu&g_ep=EgoyMDI1MTAxMi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                ><span>View on Map</span></a
+              >
+              <span class="material-symbols-outlined text-sm"
+                >arrow_forward</span
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Mandatory Footer Component Structure -->
+        <footer class="pt-16 border-t border-on-primary-container/10">
+          <!-- Main Footer Grid -->
+          <div class="max-w-9xl mx-auto px-8 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
+              <!-- Column 1: Brand & Philosophy -->
+              <div class="space-y-8">
+                <div class="flex flex-col gap-4">
+                  <img
+                    src="../images/dental-logo-footer.png"
+                    class="img-fluid"
+                  />
+                  <p
+                    class="text-primary-fixed-dim leading-relaxed font-light text-sm"
+                  >
+                    © Chagger Dental. Providing modern, compassionate dentistry
+                    for healthy, confident smiles. Emergency care, family
+                    dentistry, and advanced treatments—all under one roof.
+                  </p>
+                </div>
+                <!-- Social Proof Badges -->
+                <div class="flex gap-4 items-center">
+                  <div
+                    class="h-12 w-12 rounded-xl bg-white/10 flex items-center justify-center backdrop-blur-md"
+                  >
+                    <span
+                      class="material-symbols-outlined text-white"
+                      data-icon="verified"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >verified</span
+                    >
+                  </div>
+                  <div
+                    class="h-12 w-12 rounded-xl bg-white/10 flex items-center justify-center backdrop-blur-md"
+                  >
+                    <span
+                      class="material-symbols-outlined text-white"
+                      data-icon="stars"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >stars</span
+                    >
+                  </div>
+                  <div
+                    class="h-12 w-12 rounded-xl bg-white/10 flex items-center justify-center backdrop-blur-md"
+                  >
+                    <span
+                      class="material-symbols-outlined text-white"
+                      data-icon="health_and_safety"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >health_and_safety</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Column 2: Clinical Services -->
+              <div>
+                <h3
+                  class="font-headline text-xs uppercase tracking-[0.2em] text-white/40 mb-8 font-bold"
+                >
+                  Services
+                </h3>
+                <ul class="space-y-4">
+                  <li>
+                    <a
+                      class="text-primary-fixed-dim hover:text-white transition-colors flex items-center gap-2 group"
+                      href="../services/denture-services.html"
+                      ><span
+                        class="h-px w-0 group-hover:w-4 bg-primary-fixed-dim transition-all"
+                      ></span
+                      >Denture Services</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-primary-fixed-dim hover:text-white transition-colors flex items-center gap-2 group"
+                      href="../services/cosmetic-dentistry.html"
+                      ><span
+                        class="h-px w-0 group-hover:w-4 bg-primary-fixed-dim transition-all"
+                      ></span
+                      >Cosmetic Dentistry</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-primary-fixed-dim hover:text-white transition-colors flex items-center gap-2 group"
+                      href="../services/invisalign.html"
+                      ><span
+                        class="h-px w-0 group-hover:w-4 bg-primary-fixed-dim transition-all"
+                      ></span
+                      >Invisalign</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-primary-fixed-dim hover:text-white transition-colors flex items-center gap-2 group"
+                      href="../services/teeth-whitening.html"
+                      ><span
+                        class="h-px w-0 group-hover:w-4 bg-primary-fixed-dim transition-all"
+                      ></span
+                      >Teeth Whitening</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-primary-fixed-dim hover:text-white transition-colors flex items-center gap-2 group"
+                      href="../services/orthodontics.html"
+                      ><span
+                        class="h-px w-0 group-hover:w-4 bg-primary-fixed-dim transition-all"
+                      ></span
+                      >Orthodontics</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- Column 3: Locations (Micro-Maps) -->
+              <div>
+                <h3
+                  class="font-headline text-xs uppercase tracking-[0.2em] text-white/40 mb-8 font-bold"
+                >
+                  Quick Links
+                </h3>
+                <div class="space-y-6">
+                  <ul class="space-y-4">
+                    <li>
+                      <a
+                        class="text-primary-fixed-dim hover:text-white transition-colors flex items-center gap-2 group"
+                        href="../index.html"
+                        ><span
+                          class="h-px w-0 group-hover:w-4 bg-primary-fixed-dim transition-all"
+                        ></span
+                        >Home</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="text-primary-fixed-dim hover:text-white transition-colors flex items-center gap-2 group"
+                        href="../about_us.html"
+                        ><span
+                          class="h-px w-0 group-hover:w-4 bg-primary-fixed-dim transition-all"
+                        ></span
+                        >About Us</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="text-primary-fixed-dim hover:text-white transition-colors flex items-center gap-2 group"
+                        href="../services.html"
+                        ><span
+                          class="h-px w-0 group-hover:w-4 bg-primary-fixed-dim transition-all"
+                        ></span
+                        >Services</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="text-primary-fixed-dim hover:text-white transition-colors flex items-center gap-2 group"
+                        href="../locations_page.html"
+                        ><span
+                          class="h-px w-0 group-hover:w-4 bg-primary-fixed-dim transition-all"
+                        ></span
+                        >Locations</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="text-primary-fixed-dim hover:text-white transition-colors flex items-center gap-2 group"
+                        href="../reviews.html"
+                        ><span
+                          class="h-px w-0 group-hover:w-4 bg-primary-fixed-dim transition-all"
+                        ></span
+                        >Reviews</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Column 4: Reach Out -->
+              <div class="space-y-8">
+                <div>
+                  <h3
+                    class="font-headline text-xs uppercase tracking-[0.2em] text-white/40 mb-8 font-bold"
+                  >
+                    Contact
+                  </h3>
+                  <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                      <span
+                        class="material-symbols-outlined text-white/60 text-sm"
+                        data-icon="mail"
+                        >mail</span
+                      >
+                      <span class="text-primary-fixed-dim text-sm"
+                        >info@chaggerdental.com</span
+                      >
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <span
+                        class="material-symbols-outlined text-white/60 text-sm"
+                        data-icon="call"
+                        >call</span
+                      >
+                      <span class="text-primary-fixed-dim text-sm"
+                        >905-257-2221</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="pt-6">
+                  <h3
+                    class="font-headline text-xs uppercase tracking-[0.2em] text-white/40 mb-4 font-bold"
+                  >
+                    Follow Us
+                  </h3>
+                  <div class="flex gap-4">
+                    <a
+                      class="text-white/40 hover:text-white transition-colors"
+                      href="#"
+                      ><span
+                        class="material-symbols-outlined"
+                        data-icon="public"
+                        >public</span
+                      ></a
+                    >
+                    <a
+                      class="text-white/40 hover:text-white transition-colors"
+                      href="#"
+                      ><span class="material-symbols-outlined" data-icon="share"
+                        >share</span
+                      ></a
+                    >
+                    <a
+                      class="text-white/40 hover:text-white transition-colors"
+                      href="#"
+                      ><span class="material-symbols-outlined" data-icon="chat"
+                        >chat</span
+                      ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tonal Shift Copyright Bar -->
+          <div class="w-full bg-[#00173a] border-t border-white/5">
+            <div
+              class="max-w-7xl mx-auto px-8 py-8 flex flex-col md:flex-row justify-between items-center gap-6"
+            >
+              <div class="flex flex-col md:flex-row items-center gap-8">
+                <p
+                  class="font-label text-[12px] uppercase tracking-widest text-white/30"
+                >
+                  © 2026 Chagger Dental. All rights reserved.
+                </p>
+                <div class="flex gap-6"></div>
+              </div>
+              <div
+                class="flex items-center gap-4 grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+              >
+                <a
+                  class="font-label text-[12px] uppercase tracking-widest text-white/50 hover:text-white transition-colors"
+                  href="#"
+                  >Privacy Policy</a
+                >
+                <a
+                  class="font-label text-[12px] uppercase tracking-widest text-white/50 hover:text-white transition-colors"
+                  href="#"
+                  >Terms of Service</a
+                >
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <script>
+      // nabr js
+      /**
+       * ChaggerNavHub - Scoped logic for the Navigation and UI interactions
+       */
+      const ChaggerNavHub = {
+        isMenuOpen: false,
+
+        init() {
+          this.initMobileMenu();
+          this.initDesktopDropdowns();
+          this.initMobileToggles();
+        },
+
+        initMobileMenu() {
+          const mobileMenuBtn = document.getElementById(
+            "chg-nav-mobile-menu-btn",
+          );
+          const mobileNav = document.getElementById("chg-nav-mobile-nav");
+          const menuIcon = document.getElementById("chg-nav-menu-icon");
+
+          if (!mobileMenuBtn || !mobileNav || !menuIcon) return;
+
+          mobileMenuBtn.addEventListener("click", () => {
+            this.isMenuOpen = !this.isMenuOpen;
+            if (this.isMenuOpen) {
+              gsap.to(mobileNav, {
+                x: 0,
+                duration: 0.5,
+                ease: "expo.out",
+              });
+              menuIcon.innerText = "close";
+              document.body.style.overflow = "hidden";
+            } else {
+              gsap.to(mobileNav, {
+                x: "100%",
+                duration: 0.4,
+                ease: "expo.in",
+              });
+              menuIcon.innerText = "menu";
+              document.body.style.overflow = "";
+            }
+          });
+        },
+
+        initDesktopDropdowns() {
+          const navGroups = document.querySelectorAll(".chg-nav-link-group");
+
+          navGroups.forEach((group) => {
+            const dropdown = group.querySelector(".chg-nav-dropdown-container");
+            const arrow = group.querySelector(
+              ".material-symbols-outlined:not(.text-primary):not(.text-white):not(.text-sm)",
+            );
+
+            if (!dropdown) return;
+
+            group.addEventListener("mouseenter", () => {
+              gsap.killTweensOf(dropdown);
+              gsap.set(dropdown, {
+                visibility: "visible",
+                pointerEvents: "auto",
+              });
+              gsap.to(dropdown, {
+                opacity: 1,
+                y: 0,
+                duration: 0.4,
+                ease: "power3.out",
+              });
+              if (arrow) {
+                gsap.to(arrow, { rotate: 180, duration: 0.3 });
+              }
+            });
+
+            group.addEventListener("mouseleave", () => {
+              gsap.to(dropdown, {
+                opacity: 0,
+                y: 10,
+                duration: 0.3,
+                ease: "power3.in",
+                onComplete: () => {
+                  gsap.set(dropdown, {
+                    visibility: "hidden",
+                    pointerEvents: "none",
+                  });
+                },
+              });
+              if (arrow) {
+                gsap.to(arrow, { rotate: 0, duration: 0.3 });
+              }
+            });
+          });
+        },
+
+        setupMobileToggle(btnId, panelId) {
+          const btn = document.getElementById(btnId);
+          const panel = document.getElementById(panelId);
+          let isOpen = false;
+
+          if (btn && panel) {
+            btn.addEventListener("click", () => {
+              isOpen = !isOpen;
+              const icon = btn.querySelector(".material-symbols-outlined");
+              if (isOpen) {
+                panel.classList.remove("hidden");
+                gsap.fromTo(
+                  panel,
+                  { height: 0, opacity: 0 },
+                  {
+                    height: "auto",
+                    opacity: 1,
+                    duration: 0.4,
+                    ease: "power2.out",
+                  },
+                );
+                gsap.to(icon, { rotate: 180, duration: 0.3 });
+              } else {
+                gsap.to(panel, {
+                  height: 0,
+                  opacity: 0,
+                  duration: 0.3,
+                  ease: "power2.in",
+                  onComplete: () => panel.classList.add("hidden"),
+                });
+                gsap.to(icon, { rotate: 0, duration: 0.3 });
+              }
+            });
+          }
+        },
+
+        initMobileToggles() {
+          this.setupMobileToggle(
+            "chg-nav-mobile-services-toggle",
+            "chg-nav-mobile-services-panel",
+          );
+          this.setupMobileToggle(
+            "chg-nav-mobile-locations-toggle",
+            "chg-nav-mobile-locations-panel",
+          );
+        },
+      };
+
+      // Run on load
+      document.addEventListener("DOMContentLoaded", () => {
+        ChaggerNavHub.init();
+      });
+      // end of nabbar js
+    </script>
+  </body>
+</html>
